@@ -1,18 +1,10 @@
 using System.IO;
 
-ConsoleWriteLine (“Please select one of the following choices.”);
-ConsoleWriteLine (“1. Write”);
-ConsoleWriteLine (“2. Display”);
-ConsoleWriteLine (“3. Load”);
-ConsoleWriteLine (“4. Save”);
-ConsoleWriteLine (“5. Quit”);
-
-
 int userChoice = Console.ReadLine (); 
 
 string[] prompts = {"What was the best thing that happened to you today?", "What was the worst part of your day? Why?",  "What is something you are grateful for?", "How did I see the hand of the Lord in my life today?", “If I had one thing I could do over today, what would it be?”}; 
 
-if (userChoice == 1)
+if (userChoice = 1)
 {
   // block of code to write or respond to prompt
 
@@ -24,7 +16,7 @@ if (userChoice == 1)
 } 
 
 
-else if (userChoice == 2) 
+else if (userChoice = 2) 
 {
   // block of code to display saved entries 
 
@@ -40,19 +32,19 @@ else if (userChoice == 2)
 } 
 
 
-else if (userChoice == 3) 
+else if (userChoice = 3) 
 {
   // block of code to 
 } 
 
 
-else if (userChoice == 4) 
+else if (userChoice = 4) 
 {
   // block of code to add entry to memory 
 
-string fileName = "journal.txt"; 
-using (StreamWriter outputFile = new StreamWriter(filename)) 
-{ 
+  string fileName = "journal.txt"; 
+  using (StreamWriter outputFile = new StreamWriter(filename)) 
+
 // You can add text to the file with the WriteLine method outputFile.WriteLine("This will be the first line in the file."); 
 // You can use the $ and include variables just like with Console.WriteLine string color = "Blue"; outputFile.WriteLine(date + randomPrompt + answer); 
 }
