@@ -5,7 +5,7 @@ class PromptGenerator
     // ATTRIBUTES (Variables)(Fields)
 
     //  0   1   2   3   4
-    // elem elem    
+    // elem elem
     private List<string> prompts = new List<string>()
     {
         "What was the best thing that happened to you today?",
@@ -25,6 +25,7 @@ class PromptGenerator
     public string GetPrompt ()
     {
         int index = rnd.Next(prompts.Count);
+        return prompts[index];
     }
 
 }
