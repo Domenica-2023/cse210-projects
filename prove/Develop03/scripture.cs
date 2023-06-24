@@ -1,9 +1,22 @@
-_reference : Reference
-_words : List <Word>
+
+class Scripture
+{
+    private Reference _reference;
+    private List<Word> _words = new List<Word>();
 
 
-HideRandomWords(numberToHide : int) : void
-GetDisplayText() : string
-IsCompletelyHidden() : bool
+    public Scripture(Reference reference, string text)
+    {
 
-Scripture(Reference : Reference, text : string)
+    }
+
+    public bool HideRandomWords()
+    {
+
+    }
+
+    public bool IsCompletelyHidden()
+    {
+
+    }
+}
