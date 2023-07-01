@@ -12,29 +12,26 @@ namespace MindfulnessApp
   {
 
     private string _prompt = "";
-    private string _question = ""; 
+    private string _question = "";
 
+    public string GetRandomPrompt();
+      {
+      return _prompt
+      }
 
-    public string GetRandomPrompt()
+    public string GetRandomQuestion();
     {
-      return _prompt;
+      return _question
     }
 
-    public string GetRandomQuestion()
+    public void SetPrompt (string prompt);
     {
-      return _question; 
+             _prompt = prompt;
+    }
 
-     }
-
-    public void SetPrompt (string prompt)
-     {
-             _prompt = prompt; 
-        }
-
-    public void SetName (string question)
+    public void SetName (string question);
         {
              _question = question; 
         }
-
   }
 }

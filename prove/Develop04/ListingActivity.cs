@@ -13,7 +13,7 @@ namespace MindfulnessApp
     private string _list = ""; 
    
     
-    public GetRandomPrompt()
+    public string GetRandomPrompt()
     {
       return _prompt;  
     }
