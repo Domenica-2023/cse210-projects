@@ -9,29 +9,28 @@ using System;
 namespace MindfulnessApp
 {
   public class ReflectingActivity : Activity
-  {
+    {
+      private string _prompt = "";
+      private string _question = "";
 
-    private string _prompt = "";
-    private string _question = "";
-
-    public string GetRandomPrompt();
+      public string GetRandomPrompt();
       {
       return _prompt
       }
 
-    public string GetRandomQuestion();
+      public string GetRandomQuestion();
     {
       return _question
     }
 
-    public void SetPrompt (string prompt);
+      public void SetPrompt (string prompt);
     {
-             _prompt = prompt;
+      _prompt = prompt;
     }
 
-    public void SetName (string question);
+      public void SetName (string question);
         {
-             _question = question; 
+          _question = question; 
         }
-  }
+    }
 }
