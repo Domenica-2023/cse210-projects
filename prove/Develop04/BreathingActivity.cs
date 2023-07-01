@@ -1,24 +1,22 @@
 using System;
 
-namespace MindfulnessApp
+class BreathingActivity : Activity
 {
-  public class BreathingActivity : Activity
+  public BreathingActivity(string name, string description) : base(name, description) { }
+
+  public void RunActivity()
   {
-
-    public void RunActivity()
+    DisplayStartingMessage();
+    DateTime endTime = DateTime.Now.AddSeconds(_duration);
+    while (DateTime.Now < endTime)
     {
-      DisplayStartingMessage();
-      DateTime endTime = DateTime.Now.AddSeconds (_duration);
-      while (datetime.now < endtime)
-      {
-        Console.WriteLine ("Breathe in");
-        ShowCountdown (5);
-        Console.WriteLine ("Breathe out");
-        ShowCountdown (5);
-      }
-
-      DisplayEndingMessage();
-      
+      Console.WriteLine("Breathe in");
+      ShowCountdown(5);
+      Console.WriteLine("Breathe out");
+      ShowCountdown(5);
     }
+
+    DisplayEndingMessage();
+
   }
 }
