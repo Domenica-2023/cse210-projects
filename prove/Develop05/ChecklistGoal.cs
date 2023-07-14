@@ -43,4 +43,5 @@ class ChecklistGoal
 
     // Override the Display method
     //  $"[{GetCompleteChar()}] {name} - {description} {current}/{target}"; 
+    public override ($"[{GetCompleteChar()}] {name} - {description} {current}/{target}");
 }
