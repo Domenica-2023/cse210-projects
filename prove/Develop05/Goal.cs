@@ -5,7 +5,7 @@ abstract class Goal
     protected int points;
     protected bool complete;
 
-    public Goal (string name, string description, int points)
+    public Goal1 (string name, string description, int points)
     {
         this.name = name;
         this.description = description;
@@ -13,12 +13,21 @@ abstract class Goal
         complete = false;
     }
 
-    public Goal (string name, string description, int points, bool complete)
+    public Goal2 (string name, string description, int points, bool complete)
     {
         this.name = name;
         this.description = description;
         this.points = points;
         this.complete = complete;
+    }
+
+    public Goal3 (string name, string description, int points, bool complete)
+    {
+        this.name = name;
+        this.description = description;
+        this.points = points;
+        this.complete = complete;
+        Console.WriteLine("Better Grades" + name + "Getting good grades is what I need to get" + description);
     }
     private char GetCompleteChar()
     {
@@ -28,7 +37,7 @@ abstract class Goal
         }
         else
         {
-            return ' ';
+            return '';
         }
 
     }

@@ -1,7 +1,9 @@
 class LifeLongGoal 
 {
     public LifeLongGoal (string name, string description, int points) : base (name, description, points)
-    {}
+    {
+        private string 
+    }
 
     public override int RecordEvent()
     {
