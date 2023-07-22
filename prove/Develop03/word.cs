@@ -2,20 +2,24 @@ class Word
 {
    // METHODS
 // name : return type
-Hide() : void // setter fpr the isHidden boo
+Hide() : void // setter fpr the isHidden bool
 Show() : void // setter for the isHidden bool
 IsHidden() : bool // getter for the _isHidden bool
 GetDisplayText() : string // getter for the word string
 
 // ATTRIBUTES
-// name : type
+ _name : type
 _text : string
 _isHidden: bool
 Word(text : string)
 
-// create class
+   public class Word
 // 
 //
-// (access type) (return type) (name) (Parameters)l
+   private string Scripture()
+   {
+      Console.WriteLine("");
+      Console.WriteLine()
+   }
  
 }

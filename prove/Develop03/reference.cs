@@ -22,7 +22,14 @@ public class reference
         // Default to name and 2 numbers // 5:3
         //other option is name, a number and a range
         //for example John 5:3-4
-        _chapter = chapter
+        Console.Writeline("82");
+        Console.Writeline("10");
+        Console.Writeline("Doctrine and Covenants");
+        Console.WriteLine("0");
+        Console.WriteLine("I, the Lord, am bound when ye do what I say; but when ye do not what I say, ye have no promise.");
+
+        
+        _chapter = chapter;
         _verse = verse;
         _book = book;
         _verse2 = verse2;

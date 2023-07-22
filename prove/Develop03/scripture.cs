@@ -1,4 +1,3 @@
-
 class Scripture
 {
     private Reference _reference;
@@ -7,11 +6,15 @@ class Scripture
 
     public Scripture(Reference reference, string text)
     {
-
+        private string verse;
+        private string chapter;
+        private string page;
     }
 
     public bool HideRandomWords()
     {
+        public class reference();
+        return HideRandomWords()
 
     }
 
