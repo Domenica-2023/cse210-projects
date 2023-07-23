@@ -15,7 +15,7 @@ public class Cycling : Activity
         _year = 0;
         _days = 0;
         
-        return new Cycling("",)
+        return new Cycling("")
     }
 
 }

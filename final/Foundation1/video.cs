@@ -12,7 +12,7 @@ public class Video
     public void DisplayVideoInfo()
     {
         Console.WriteLine($"{_videoTitle} by: {_videoAuthor} // {_lengthInSeconds}");
-        Console.WriteLine("Comments:);
+        Console.WriteLine("Comments:");
 
         // Notice the use of the custom data type "Comment" in this loop
         foreach (Comment comment in _comments)
