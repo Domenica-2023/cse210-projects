@@ -8,6 +8,14 @@ public class Cycling : Activity
         _distance = distance; 
 
     }
-
+    public Activity()
+    {
+        _length = 0;
+        _month = 0;
+        _year = 0;
+        _days = 0;
+        
+        return new Cycling("",)
+    }
 
 }

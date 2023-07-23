@@ -8,6 +8,10 @@ public class Running : Activity
         _distance = distance; 
 
     }
-
+    public void DisplayRunning()
+    {
+         Console.WriteLine($"{_dayone} by: {_daytwo} // {_runninglength}");
+        Console.WriteLine("RunningDistance:");
+    }
 
 }
